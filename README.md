@@ -1,0 +1,1 @@
+this is an cloning from snap website with tailwindcss
