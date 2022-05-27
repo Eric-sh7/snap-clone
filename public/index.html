@@ -5,8 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snap</title>
+    <link rel="stylesheet" href="../src/dist/output.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <h1>Snap website</h1>
+    <header class="w-full lg:py-14 py-4 bg-white xl:px-72 lg:px-32 md:px-16 px-4 sticky top-0 flex items-center lg:gap-8 justify-between lg:justify-start">
+        <img src="../src/asset/images/snappTextLogo.svg" alt="logo" class="xl:w-40 w-32 h-auto order-2 lg:order-1">
+        <!-- desktop nav -->
+        <nav class="hidden lg:block order-2">
+            <ul class="flex items-center gap-12 xl:text-2xl lg:text-md md:text-md">
+                <li class="hover">فرصت های شغلی</li>
+                <li class="hover">بلاگ </li>
+                <li class="hover">باشگاه رانندگان</li>
+                <li class="hover">ثبت نام راننده اسنپ</li>
+                <li class="hover">پنل سازمانی</li>
+                <li class="hover">درباره ما</li>
+                <li class="hover">تماس با ما</li>
+            </ul>
+        </nav>
+        <!-- mobile nav -->
+        <div class="lg:hidden text-5xl p-2 grid place-content-center rounded-full hover hover:bg-slate-50/30">
+            <i class='bx bx-menu'></i>
+        </div>
+    </header>
 </body>
 </html>

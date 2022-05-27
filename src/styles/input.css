@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "snap-font";
+    src: url('../asset/font/main-font.ttf');
+}
+
+body{
+    direction: rtl; 
+    font-family: "snap-font" ;
+}
+.hover{
+    @apply hover:text-gray-500 duration-300 transition-all cursor-pointer;
+}
